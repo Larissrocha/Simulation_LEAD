@@ -1,0 +1,17 @@
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment//worlds/default.sdf
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment//launch/sim.launch.py
+/home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/package_run_dependencies/sim_environment
+/home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/parent_prefix_path/sim_environment
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/ament_prefix_path.sh
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/ament_prefix_path.dsv
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/path.sh
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/path.dsv
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.bash
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.sh
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.zsh
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.dsv
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.dsv
+/home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/packages/sim_environment
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/cmake/sim_environmentConfig.cmake
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/cmake/sim_environmentConfig-version.cmake
+/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.xml

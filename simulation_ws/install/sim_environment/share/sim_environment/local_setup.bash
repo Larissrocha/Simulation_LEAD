@@ -1,0 +1,1 @@
+/home/developer/simulation_ws/build/sim_environment/ament_cmake_environment_hooks/local_setup.bash
