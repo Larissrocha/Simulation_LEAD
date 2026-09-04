@@ -60,7 +60,7 @@ RUN git clone -b release/1.16 https://github.com/PX4/PX4-Autopilot.git \
     && cd PX4-Autopilot \
     && git submodule update --init --recursive \
     && bash ./Tools/setup/ubuntu.sh --no-nuttx --no-sim-tools \
-    && DONT_RUN=1 make px4_sitl_default gz_x500
+    && make px4_sitl_default
 
 # 6. Pacotes de mensagens ROS 2 / PX4
 RUN mkdir -p /home/$USERNAME/dependencias_px4/src \
