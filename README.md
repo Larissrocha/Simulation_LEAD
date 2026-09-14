@@ -1,16 +1,16 @@
 
-# Aerostack LEAD 2 - Ambiente de Simulação
+# Simulação LEAD - Ambiente de Simulação
 
-Ambiente de simulação para desenvolvimento e validação de algoritmos de controle de voo e missões autônomas utilizando **ROS 2 Humble**, **PX4 SITL**, **Gazebo** e **Aerostack2**.
+Ambiente de simulação puro para desenvolvimento e validação de controle de voo, sensoriamento e missões autônomas com drones utilizando **ROS 2 Humble**, **PX4 SITL (v1.16)** e **Gazebo Sim (Harmonic)**, sem acoplamento a frameworks legados.
 
 ---
 
 ## Arquitetura do Ambiente
 
-1. **Workspace do Usuário (`aerostack2_ws/src`)**: Montado como volume compartilhado entre o seu computador físico e o container. Qualquer alteração feita no seu código host reflete diretamente dentro do Docker em tempo real.
-2. **Workspace de Dependências (`dependencias_px4`)**: Isolado internamente no container. Baixa e compila automaticamente as mensagens oficiais do PX4 (`px4_msgs`, `px4_ros_com`), mantendo o repositório Git limpo.
-3. **Firmware de Voo**: Simulador **PX4-Autopilot v1.16** compilado internamente na pasta `/home/developer/PX4-Autopilot`.
-4. **Ponte de Comunicação**: O **Micro-XRCE-DDS Agent** gerencia a tradução de baixa latência entre o protocolo uORB do PX4 e os tópicos nativos do ROS 2.
+1. **Workspace do Usuário (`simulation_ws/src`)**: Montado como volume compartilhado entre o computador físico e o container Docker. Qualquer código, modelo ou launch alterado no host reflete instantaneamente dentro do container.
+2. **Workspace de Dependências (`dependencias_px4`)**: Compilado internamente na imagem Docker com as interfaces oficiais do PX4 (`px4_msgs`, `px4_ros_com`), mantendo o repositório Git leve.
+3. **Firmware de Voo (PX4 SITL)**: O código-fonte do **PX4-Autopilot (v1.16)** fica compilado dentro do container em `/home/developer/PX4-Autopilot`.
+4. **Ponte de Comunicação (Micro-XRCE-DDS)**: O **MicroXRCEAgent** atua como tradutor de alta frequência entre o middleware DDS do ROS 2 e as mensagens uORB nativas do firmware PX4.
 
 ---
 
