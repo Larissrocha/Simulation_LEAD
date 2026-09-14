@@ -107,7 +107,7 @@ Para interagir com o drone enquanto a simulação está rodando:
 
 1. Abra uma nova aba no terminal da sua **máquina física**:
 ```bash
-docker exec -it -u developer simulation /bin/bash
+docker exec -it -u developer lead_simulation /bin/bash
 
 ```
 
