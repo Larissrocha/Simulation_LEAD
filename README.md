@@ -55,7 +55,10 @@ docker compose up -d --build
 ### 4. Acessar o Terminal do Container
 
 Entre no container como o usuário padrão `developer`:
-
+*se precisar subir o container
+```bash
+docker compose up -d 
+```
 ```bash
 docker compose exec -it simulation /bin/bash
 
