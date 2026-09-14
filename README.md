@@ -114,7 +114,7 @@ docker exec -it -u developer lead_simulation /bin/bash
 
 2. Carregue o ambiente e execute seu script de missão:
 ```bash
-cd /home/developer/aerostack2_ws
+cd /home/developer/simulation_ws
 source install/setup.bash
 ros2 run lead_missions simple_mission
 
