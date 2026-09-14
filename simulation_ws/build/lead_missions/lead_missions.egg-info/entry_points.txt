@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_mission = lead_missions.aruco_mission:main
+simple_mission = lead_missions.simple_mission:main
+

@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/developer/simulation_ws/build/sim_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/simulation_ws/build/sim_environment -- -j20 -l20
+[0.036s] Invoked command in '/home/developer/simulation_ws/build/sim_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/simulation_ws/build/sim_environment -- -j20 -l20
+[0.042s] Invoking command in '/home/developer/simulation_ws/build/sim_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/simulation_ws/build/sim_environment
+[0.048s] -- Install configuration: ""
+[0.048s] -- Execute custom install script
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//worlds/default.sdf
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/ariel_marker/.png
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/ariel_marker/ariel_marker.png
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/ariel_marker/ariel_marker.sdf
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/ariel_marker/model.config
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/grass_patch/materials/textures/grass_dry.png
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/grass_patch/model.config
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/grass_patch/model.sdf
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/grass_patch/thumbnails/grasspatch.jpg
+[0.049s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/materials/textures/CF.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/materials/textures/nxp.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/materials/textures/rd.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/1345_prop_ccw.stl
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/1345_prop_cw.stl
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/5010Base.dae
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/5010Bell.dae
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/CF.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/meshes/NXP-HGD-CF.dae
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/model.config
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/thumbnails/1.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/thumbnails/2.png
+[0.050s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/thumbnails/3.png
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/thumbnails/4.png
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/thumbnails/5.png
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/x500_px4.sdf
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//models/x500_px4/x500_px4.sdf.jinja
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//launch/sim.launch.py
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment//launch/spawn_drone.launch.py
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/package_run_dependencies/sim_environment
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/parent_prefix_path/sim_environment
+[0.051s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/path.sh
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/environment/path.dsv
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.bash
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.sh
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.zsh
+[0.052s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/local_setup.dsv
+[0.052s] -- Symlinking: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.dsv
+[0.058s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/ament_index/resource_index/packages/sim_environment
+[0.058s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/cmake/sim_environmentConfig.cmake
+[0.058s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/cmake/sim_environmentConfig-version.cmake
+[0.058s] -- Up-to-date symlink: /home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.xml
+[0.060s] Invoked command in '/home/developer/simulation_ws/build/sim_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/simulation_ws/build/sim_environment

@@ -1,0 +1,25 @@
+[0.433s] Invoking command in '/home/developer/simulation_ws/build/lead_missions': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data
+[0.559s] running develop
+[0.615s] running egg_info
+[0.615s] creating lead_missions.egg-info
+[0.615s] writing lead_missions.egg-info/PKG-INFO
+[0.615s] writing dependency_links to lead_missions.egg-info/dependency_links.txt
+[0.615s] writing entry points to lead_missions.egg-info/entry_points.txt
+[0.615s] writing requirements to lead_missions.egg-info/requires.txt
+[0.615s] writing top-level names to lead_missions.egg-info/top_level.txt
+[0.616s] writing manifest file 'lead_missions.egg-info/SOURCES.txt'
+[0.616s] reading manifest file 'lead_missions.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'lead_missions.egg-info/SOURCES.txt'
+[0.617s] running build_ext
+[0.617s] Creating /home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages/lead-missions.egg-link (link to .)
+[0.618s] Installing aruco_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+[0.618s] Installing simple_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+[0.618s] 
+[0.618s] Installed /home/developer/simulation_ws/build/lead_missions
+[0.618s] running symlink_data
+[0.618s] creating /home/developer/simulation_ws/install/lead_missions/share/ament_index
+[0.618s] creating /home/developer/simulation_ws/install/lead_missions/share/ament_index/resource_index
+[0.618s] creating /home/developer/simulation_ws/install/lead_missions/share/ament_index/resource_index/packages
+[0.618s] symbolically linking /home/developer/simulation_ws/build/lead_missions/resource/lead_missions -> /home/developer/simulation_ws/install/lead_missions/share/ament_index/resource_index/packages
+[0.618s] symbolically linking /home/developer/simulation_ws/build/lead_missions/package.xml -> /home/developer/simulation_ws/install/lead_missions/share/lead_missions
+[0.630s] Invoked command in '/home/developer/simulation_ws/build/lead_missions' returned '0': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data
