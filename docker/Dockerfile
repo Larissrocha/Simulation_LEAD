@@ -19,10 +19,7 @@ RUN wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pk
 # 2. Instalação do Gazebo Harmonic e dependências completas
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gz-harmonic \
-    ros-humble-ros-gz \
-    ros-humble-ros-gz-bridge \
-    ros-humble-ros-gz-sim \
-    ros-humble-ros-gz-interfaces \
+    ros-humble-ros-gzharmonic \
     bash-completion \
     build-essential \
     cmake \

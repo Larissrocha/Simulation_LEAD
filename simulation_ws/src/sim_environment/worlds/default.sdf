@@ -7,20 +7,21 @@
       <real_time_factor>1.0</real_time_factor>
       <real_time_update_rate>250</real_time_update_rate>
     </physics>
-     <gravity>0 0 -9.8</gravity>
-        <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
-        <atmosphere type="adiabatic"/>
-
+    <gravity>0 0 -9.8</gravity>
+      <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+      <atmosphere type="adiabatic"/>
+   
     <!-- Plugins de Sistema do Gazebo -->
-    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
-    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
-    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
-    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/> <!--Sistema de Física do Mundo-->
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/><!--habilita comandos enviados pelo usuário para o simulador-->
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/><!--visualização da interface gráfica do Gazebo.-->
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors"> <!-- Habilita a simulação e atualização dos sensores presentes no mundo -->
       <render_engine>ogre2</render_engine>
     </plugin>
 
-    <!-- Configuração da Cena Visual: Céu Azul com Nuvens -->
+    <!-- Configuração da Cena Visual: Céu e Nuvens -->
     <scene>
+      <grid>false</grid>
       <ambient>0.6 0.6 0.6 1.0</ambient>
       <background>0.8 0.9 1.0 1.0</background>
       <shadows>true</shadows>
@@ -51,40 +52,15 @@
     </light>
 
     <!-- Plano de Chão  -->
-    <model name="ground_plane">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>200 200</size>
-            </plane>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
-              </ode>
-            </friction>
-          </surface>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>200 200</size>
-            </plane>
-          </geometry>
-          <material>
-            <ambient>0.2 0.5 0.2 1.0</ambient>
-            <diffuse>0.25 0.55 0.25 1.0</diffuse>
-            <specular>0.05 0.05 0.05 1.0</specular>
-          </material>
-        </visual>
-      </link>
-    </model>
+    <include>
+        <uri>model://grass_patch</uri> <!--modelo de piso. caminho: /Simulation_LEAD/simulation_ws/src/sim_environment/models-->
+    </include>
+
+    <!--Modelo do Aruco-->
+    <include>
+      <uri>model://ariel_marker</uri>
+      <pose>2.0 1.0 0.005 0 0 0</pose>
+    </include>
 
   </world>
 </sdf>
