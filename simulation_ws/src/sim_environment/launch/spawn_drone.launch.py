@@ -33,7 +33,8 @@ def generate_launch_description():
             '-file', drone_sdf_path,
             '-x', pos_x,
             '-y', pos_y,
-            '-z', pos_z
+            '-z', pos_z,
+            '--timeout', '15.0'
         ],
         output='screen'
     )
