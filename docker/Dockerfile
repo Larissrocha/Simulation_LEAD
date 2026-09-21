@@ -27,13 +27,9 @@ RUN wget https://packages.osrfoundation.org/gazebo.gpg \
 # ============================================================
 # 2. Gazebo Harmonic + ROS 2 + ferramentas
 # ============================================================
-
-# ============================================================
-# 2. Gazebo Harmonic + ROS 2 + ferramentas
-# ============================================================
-
 # Remove o ros_gz (Fortress) que vem por padrão no desktop-full,
 # para poder instalar a versão compilada contra Harmonic
+
 RUN apt-get update && apt-get purge -y --auto-remove \
     'ros-humble-ros-gz*' \
     || true

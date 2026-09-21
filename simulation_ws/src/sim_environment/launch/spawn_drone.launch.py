@@ -38,11 +38,21 @@ def generate_launch_description():
         ],
         output='screen'
     )
-
+    bridge_node = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/model/x500_0/pose@geometry_msgs/msg/Pose[gz.msgs.Pose',
+            '/x500_0/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist',
+            '/x500_0/enable@std_msgs/msg/Bool]gz.msgs.Boolean',
+        ],
+        output='screen'
+    )
     return LaunchDescription([
         drone_name_arg,
         x_arg,
         y_arg,
         z_arg,
-        spawn_node
+        spawn_node,
+        bridge_node
     ])

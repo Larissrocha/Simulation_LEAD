@@ -1,0 +1,18 @@
+[1.079s] Invoking command in '/home/developer/simulation_ws/build/lead_missions': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data
+[1.334s] running develop
+[1.503s] running egg_info
+[1.504s] writing lead_missions.egg-info/PKG-INFO
+[1.504s] writing dependency_links to lead_missions.egg-info/dependency_links.txt
+[1.504s] writing entry points to lead_missions.egg-info/entry_points.txt
+[1.505s] writing requirements to lead_missions.egg-info/requires.txt
+[1.505s] writing top-level names to lead_missions.egg-info/top_level.txt
+[1.507s] reading manifest file 'lead_missions.egg-info/SOURCES.txt'
+[1.507s] writing manifest file 'lead_missions.egg-info/SOURCES.txt'
+[1.509s] running build_ext
+[1.509s] Creating /home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages/lead-missions.egg-link (link to .)
+[1.510s] Installing aruco_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+[1.511s] Installing simple_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+[1.511s] 
+[1.511s] Installed /home/developer/simulation_ws/build/lead_missions
+[1.511s] running symlink_data
+[1.534s] Invoked command in '/home/developer/simulation_ws/build/lead_missions' returned '0': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data

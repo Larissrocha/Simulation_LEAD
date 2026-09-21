@@ -4,11 +4,13 @@ Missão simples via ROS 2.
 """
 
 import time
+
+from std_msgs import msg
 import rclpy
 import math
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
-from geometry_msgs.msg import Twist, PoseStamped
+from geometry_msgs.msg import Twist, Pose
 from std_msgs.msg import Bool
 
 
@@ -16,15 +18,14 @@ class DirectSimMission(Node):
     def __init__(self):
         super().__init__('direct_sim_mission')
 
-        self.drone_ns = 'x500_px4'
+        self.drone_ns = 'x500_0'
 
         # Publishers ativos na sua simulação
-        self.cmd_vel_pub = self.create_publisher(Twist, f'/gz/{self.drone_ns}/cmd_vel', 10)
-        self.arm_pub = self.create_publisher(Bool, f'/gz/{self.drone_ns}/arm', 10)
+        self.cmd_vel_pub = self.create_publisher(Twist, f'/{self.drone_ns}/cmd_vel', 10)
+        self.arm_pub = self.create_publisher(Bool, f'/{self.drone_ns}/enable', 10)
 
         # Subscriber de Pose com QoS compatível com sensores (BEST_EFFORT)
-        self.pose_sub = self.create_subscription(
-            PoseStamped, f'/{self.drone_ns}/ground_truth/pose', self.pose_cb, qos_profile_sensor_data)
+        self.pose_sub = self.create_subscription(Pose, f'/model/{self.drone_ns}/pose', self.pose_cb, qos_profile_sensor_data)
 
         # Guardar a posição atual em 3D
         self.current_x = 0.0
@@ -56,10 +57,10 @@ class DirectSimMission(Node):
 
         self.get_logger().info('Iniciando controle direto de voo do x500_px4...')
 
-    def pose_cb(self, msg: PoseStamped):
-        self.current_x = msg.pose.position.x
-        self.current_y = msg.pose.position.y
-        self.current_z = msg.pose.position.z
+    def pose_cb(self, msg: Pose):
+        self.current_x = msg.position.x
+        self.current_y = msg.position.y
+        self.current_z = msg.position.z
 
         # Salva o ponto de origem apenas na primeira vez
         if not self.home_captured:
