@@ -38,8 +38,8 @@ class DirectSimMission(Node):
         self.home_captured = False
 
         # Coordenada do Marcador ArUco no Gazebo
-        self.marker_x = 2.90
-        self.marker_y = -2.90
+        self.marker_x = 2.00
+        self.marker_y = 1.00
         self.target_alt = 2.0
 
         d = 0.4

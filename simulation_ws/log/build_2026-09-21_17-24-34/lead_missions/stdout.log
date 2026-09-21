@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lead_missions.egg-info/PKG-INFO
+writing dependency_links to lead_missions.egg-info/dependency_links.txt
+writing entry points to lead_missions.egg-info/entry_points.txt
+writing requirements to lead_missions.egg-info/requires.txt
+writing top-level names to lead_missions.egg-info/top_level.txt
+reading manifest file 'lead_missions.egg-info/SOURCES.txt'
+writing manifest file 'lead_missions.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages/lead-missions.egg-link (link to .)
+Installing aruco_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+Installing simple_mission script to /home/developer/simulation_ws/install/lead_missions/lib/lead_missions
+
+Installed /home/developer/simulation_ws/build/lead_missions
+running symlink_data

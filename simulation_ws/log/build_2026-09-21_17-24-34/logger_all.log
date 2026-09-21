@@ -1,0 +1,192 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e3a05b55990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3a05cdf010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3a05cdf010>>, mixin_verb=('build',))
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/developer/simulation_ws'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/lead_missions) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lead_missions' with type 'ros.ament_python' and name 'lead_missions'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_environment) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sim_environment' with type 'ros.ament_cmake' and name 'sim_environment'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'lead_missions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'lead_missions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/simulation_ws/build/lead_missions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/simulation_ws/install/lead_missions', 'merge_install': False, 'path': '/home/developer/simulation_ws/src/lead_missions', 'symlink_install': True, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'sim_environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'sim_environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/simulation_ws/build/sim_environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/simulation_ws/install/sim_environment', 'merge_install': False, 'path': '/home/developer/simulation_ws/src/sim_environment', 'symlink_install': True, 'test_result_base': None}
+[0.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/developer/simulation_ws/src/lead_missions' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('lead_missions', 'ament_prefix_path')
+[0.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/ament_prefix_path.ps1'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/ament_prefix_path.dsv'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/ament_prefix_path.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/developer/simulation_ws/src/sim_environment' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/developer/simulation_ws/src/sim_environment'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/developer/simulation_ws/src/lead_missions'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/simulation_ws/build/sim_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/simulation_ws/install/lead_missions:/opt/ros/humble /usr/bin/cmake --build /home/developer/simulation_ws/build/sim_environment -- -j12 -l12
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/simulation_ws/build/sim_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/simulation_ws/install/lead_missions:/opt/ros/humble /usr/bin/cmake --build /home/developer/simulation_ws/build/sim_environment -- -j12 -l12
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/simulation_ws/build/sim_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/simulation_ws/install/lead_missions:/opt/ros/humble /usr/bin/cmake --install /home/developer/simulation_ws/build/sim_environment
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_environment)
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/simulation_ws/build/sim_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/simulation_ws/install/lead_missions:/opt/ros/humble /usr/bin/cmake --install /home/developer/simulation_ws/build/sim_environment
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment' for CMake module files
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment' for CMake config files
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_environment', 'cmake_prefix_path')
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.sh'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/lib/pkgconfig/sim_environment.pc'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/lib/python3.10/site-packages'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/bin'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.bash'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.zsh'
+[0.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/simulation_ws/install/sim_environment/share/colcon-core/packages/sim_environment)
+[0.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_environment)
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment' for CMake module files
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment' for CMake config files
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_environment', 'cmake_prefix_path')
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.dsv'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/hook/cmake_prefix_path.sh'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/bin'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/lib/pkgconfig/sim_environment.pc'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/lib/python3.10/site-packages'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/sim_environment/bin'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.sh'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.bash'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/sim_environment/share/sim_environment/package.zsh'
+[0.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/simulation_ws/install/sim_environment/share/colcon-core/packages/sim_environment)
+[0.773s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_wheel, symlink_data, saveopts, test, build_py, build_clib, install_headers, egg_info, bdist_rpm, build_scripts, alias, install_lib, easy_install, setopt, build_ext, check, install_data, develop, register, install, dist_info, upload_docs, bdist_dumb, build, install_egg_info, bdist_egg, bdist, upload, clean, rotate, sdist, install_scripts
+[0.995s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --dry-run, --site-dirs, --multi-version, --no-user-cfg, --record, --egg-path, --exclude-scripts, --quiet, --always-copy, --help, --always-unzip, --script-dir, --local-snapshots-ok, --version, --zip-ok, --find-links, --build-directory, --no-find-links, --editable, --force-installation-into-system-dir, --install-dir, --no-deps, --user, --optimize, --upgrade, --allow-hosts, --index-url, --prefix, --verbose, --uninstall, --install-layout
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/simulation_ws/build/lead_missions': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('lead_missions', 'pythonpath_develop')
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/build/lead_missions/share/lead_missions/hook/pythonpath_develop.ps1'
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/simulation_ws/build/lead_missions' returned '0': PYTHONPATH=/home/developer/simulation_ws/build/lead_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/simulation_ws/build/lead_missions/build --no-deps symlink_data
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/simulation_ws/build/lead_missions/share/lead_missions/hook/pythonpath_develop.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/build/lead_missions/share/lead_missions/hook/pythonpath_develop.sh'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions' for CMake module files
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions' for CMake config files
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions/lib'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions/bin'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions/lib/pkgconfig/lead_missions.pc'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions/lib/python3.10/site-packages'
+[1.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('lead_missions', 'pythonpath')
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/pythonpath.ps1'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/pythonpath.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/hook/pythonpath.sh'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/developer/simulation_ws/install/lead_missions/bin'
+[1.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lead_missions)
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/package.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/package.dsv'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/package.sh'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/package.bash'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/simulation_ws/install/lead_missions/share/lead_missions/package.zsh'
+[1.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/simulation_ws/install/lead_missions/share/colcon-core/packages/lead_missions)
+[1.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.362s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.367s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.367s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.367s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.367s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.369s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.369s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/simulation_ws/install/local_setup.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/developer/simulation_ws/install/_local_setup_util_ps1.py'
+[1.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/simulation_ws/install/setup.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/simulation_ws/install/local_setup.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/developer/simulation_ws/install/_local_setup_util_sh.py'
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/simulation_ws/install/setup.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/simulation_ws/install/local_setup.bash'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/simulation_ws/install/setup.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/simulation_ws/install/local_setup.zsh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/simulation_ws/install/setup.zsh'
